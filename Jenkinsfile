@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SONARQUBE = 'SonarQube'  // This matches the name of your SonarQube server in Jenkins configuration
-        GIT_CREDENTIALS = credentials('your-credentials-id')  // Replace with your credentials ID
+        GIT_CREDENTIALS = credentials('Surya-Dasari')  // Replace with your credentials ID
     }
 
     stages {
